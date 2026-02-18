@@ -1,0 +1,171 @@
+{
+  "examples": [
+    {
+      "request": {
+        "protein": "Salmon",
+        "sides": ["Garlic Asparagus", "Brown Rice"],
+        "servings": 2,
+        "skillLevel": "beginner",
+        "method": "oven",
+        "timeLimitMin": 35,
+        "flavorStyle": "healthy"
+      },
+      "pairingFeedback": {
+        "status": "great",
+        "message": "Balanced plate: lean protein + green veg + whole grain.",
+        "suggestedSwaps": []
+      },
+      "recipe": {
+        "title": "Lemon Garlic Oven Salmon with Asparagus and Brown Rice",
+        "summary": "Weeknight healthy meal with crisp-tender asparagus and flaky salmon.",
+        "totalCookTimeMin": 32,
+        "ingredients": [
+          {"item": "Salmon fillets", "amount": "2 fillets (6 oz each)", "notes": null},
+          {"item": "Asparagus", "amount": "12 oz", "notes": "trimmed"},
+          {"item": "Brown rice", "amount": "1 cup dry", "notes": null},
+          {"item": "Olive oil", "amount": "2 tbsp", "notes": null},
+          {"item": "Garlic", "amount": "3 cloves, minced", "notes": null},
+          {"item": "Lemon", "amount": "1 whole", "notes": "zest + juice"},
+          {"item": "Salt", "amount": "1 tsp", "notes": "divided"},
+          {"item": "Black pepper", "amount": "1/2 tsp", "notes": null}
+        ],
+        "steps": [
+          {"stepNumber": 1, "instruction": "Start rice per package (usually 1 cup rice + 2 cups water).", "timeMin": 2, "techniqueTip": "Rinse rice until water runs less cloudy for better texture."},
+          {"stepNumber": 2, "instruction": "Heat oven to 425°F. Place salmon and asparagus on a sheet pan.", "timeMin": 3, "techniqueTip": null},
+          {"stepNumber": 3, "instruction": "Mix olive oil, garlic, lemon zest, half the lemon juice, salt, and pepper. Brush over salmon and asparagus.", "timeMin": 4, "techniqueTip": "Coat asparagus lightly so it roasts instead of steams."},
+          {"stepNumber": 4, "instruction": "Bake 12–14 minutes until salmon flakes and asparagus is tender-crisp.", "timeMin": 14, "techniqueTip": "Pull salmon at 125–130°F internal for moist results."},
+          {"stepNumber": 5, "instruction": "Fluff rice, plate everything, finish with remaining lemon juice.", "timeMin": 3, "techniqueTip": null}
+        ],
+        "substitutions": [
+          {"original": "Salmon", "swap": "Trout", "impact": "Similar cook time, slightly milder flavor."},
+          {"original": "Brown rice", "swap": "Quinoa", "impact": "Cooks faster and has a nuttier taste."}
+        ],
+        "commonMistakes": [
+          {"mistake": "Overbaking salmon", "fix": "Check at minute 12; remove when center is just opaque."},
+          {"mistake": "Soggy asparagus", "fix": "Use high heat and avoid overcrowding pan."}
+        ]
+      },
+      "shoppingList": {
+        "produce": ["Asparagus (12 oz)", "Garlic (1 bulb)", "Lemon (1)"],
+        "protein": ["Salmon fillets (12 oz total)"],
+        "dairy": [],
+        "dryGoods": ["Brown rice (1 cup dry)"],
+        "spicesAndSauces": ["Olive oil", "Salt", "Black pepper"],
+        "other": []
+      }
+    },
+    {
+      "request": {
+        "protein": "Chicken Thighs",
+        "sides": ["Mac and Cheese", "Sauteed Green Beans"],
+        "servings": 4,
+        "skillLevel": "beginner",
+        "method": "air_fryer",
+        "timeLimitMin": 40,
+        "flavorStyle": "comfort"
+      },
+      "pairingFeedback": {
+        "status": "good",
+        "message": "Comfort-forward with one lighter green side for balance.",
+        "suggestedSwaps": ["Roasted Broccoli"]
+      },
+      "recipe": {
+        "title": "Crispy Air-Fryer Chicken Thighs with Mac and Cheese + Green Beans",
+        "summary": "Comfort meal with crisp skin and quick stovetop sides.",
+        "totalCookTimeMin": 38,
+        "ingredients": [
+          {"item": "Bone-in chicken thighs", "amount": "8 pieces", "notes": null},
+          {"item": "Elbow pasta", "amount": "12 oz", "notes": null},
+          {"item": "Shredded cheddar", "amount": "2 cups", "notes": null},
+          {"item": "Milk", "amount": "2 cups", "notes": null},
+          {"item": "Butter", "amount": "3 tbsp", "notes": null},
+          {"item": "Green beans", "amount": "12 oz", "notes": "trimmed"},
+          {"item": "Garlic powder", "amount": "1 tsp", "notes": null},
+          {"item": "Paprika", "amount": "1 tsp", "notes": null},
+          {"item": "Salt", "amount": "1.5 tsp", "notes": "divided"},
+          {"item": "Pepper", "amount": "3/4 tsp", "notes": null}
+        ],
+        "steps": [
+          {"stepNumber": 1, "instruction": "Preheat air fryer to 390°F. Pat chicken dry; season with salt, pepper, paprika, and garlic powder.", "timeMin": 5, "techniqueTip": "Dry skin = crispier finish."},
+          {"stepNumber": 2, "instruction": "Air-fry chicken skin-side down 12 min, flip, then 10–12 min until 175°F internal.", "timeMin": 24, "techniqueTip": "Do not crowd basket; cook in batches if needed."},
+          {"stepNumber": 3, "instruction": "Boil pasta until al dente. Drain.", "timeMin": 8, "techniqueTip": null},
+          {"stepNumber": 4, "instruction": "In pot, melt butter, add milk, warm gently, then stir in cheddar until smooth. Toss pasta in sauce.", "timeMin": 5, "techniqueTip": "Keep heat low to avoid grainy cheese sauce."},
+          {"stepNumber": 5, "instruction": "Sauté green beans with a little oil and pinch of salt until bright and tender-crisp.", "timeMin": 4, "techniqueTip": "High heat keeps them snappy."}
+        ],
+        "substitutions": [
+          {"original": "Chicken thighs", "swap": "Boneless thighs", "impact": "Cook faster; reduce second phase by ~3 min."},
+          {"original": "Cheddar", "swap": "Monterey Jack", "impact": "Milder flavor, smoother melt."}
+        ],
+        "commonMistakes": [
+          {"mistake": "Undercooked dark meat", "fix": "Aim for 175°F for tender thighs."},
+          {"mistake": "Broken cheese sauce", "fix": "Use low heat and add cheese gradually."}
+        ]
+      },
+      "shoppingList": {
+        "produce": ["Green beans (12 oz)"],
+        "protein": ["Chicken thighs (8)"],
+        "dairy": ["Cheddar (2 cups)", "Milk (2 cups)", "Butter"],
+        "dryGoods": ["Elbow pasta (12 oz)"],
+        "spicesAndSauces": ["Salt", "Black pepper", "Paprika", "Garlic powder"],
+        "other": []
+      }
+    },
+    {
+      "request": {
+        "protein": "Firm Tofu",
+        "sides": ["Stir-Fried Bok Choy", "Steamed Rice"],
+        "servings": 3,
+        "skillLevel": "intermediate",
+        "method": "stovetop",
+        "timeLimitMin": 30,
+        "flavorStyle": "spicy"
+      },
+      "pairingFeedback": {
+        "status": "great",
+        "message": "Excellent texture contrast and spicy-friendly structure.",
+        "suggestedSwaps": []
+      },
+      "recipe": {
+        "title": "Spicy Crispy Tofu Bowl with Bok Choy and Rice",
+        "summary": "Fast stovetop bowl with chili-garlic glaze and crunchy edges.",
+        "totalCookTimeMin": 29,
+        "ingredients": [
+          {"item": "Firm tofu", "amount": "14 oz block", "notes": "pressed and cubed"},
+          {"item": "Rice", "amount": "1.5 cups cooked", "notes": "or 3/4 cup dry"},
+          {"item": "Bok choy", "amount": "4 cups chopped", "notes": null},
+          {"item": "Cornstarch", "amount": "2 tbsp", "notes": null},
+          {"item": "Soy sauce", "amount": "3 tbsp", "notes": null},
+          {"item": "Chili garlic sauce", "amount": "1 tbsp", "notes": null},
+          {"item": "Honey or maple syrup", "amount": "1 tbsp", "notes": null},
+          {"item": "Rice vinegar", "amount": "1 tbsp", "notes": null},
+          {"item": "Garlic", "amount": "2 cloves", "notes": "minced"},
+          {"item": "Neutral oil", "amount": "2 tbsp", "notes": null}
+        ],
+        "steps": [
+          {"stepNumber": 1, "instruction": "Start rice if not pre-cooked.", "timeMin": 2, "techniqueTip": null},
+          {"stepNumber": 2, "instruction": "Toss tofu cubes with cornstarch and a pinch of salt.", "timeMin": 3, "techniqueTip": "Cornstarch creates a crisp shell."},
+          {"stepNumber": 3, "instruction": "Pan-fry tofu in oil over medium-high heat 8–10 minutes until golden on most sides.", "timeMin": 10, "techniqueTip": "Let cubes sit before flipping for better crust."},
+          {"stepNumber": 4, "instruction": "Whisk soy sauce, chili garlic sauce, honey/maple, rice vinegar, and garlic. Add to pan and toss 1–2 minutes.", "timeMin": 3, "techniqueTip": "Sauce thickens fast; lower heat once glossy."},
+          {"stepNumber": 5, "instruction": "In a second pan, stir-fry bok choy with a little oil and salt until just wilted.", "timeMin": 4, "techniqueTip": "Keep stems slightly crisp."},
+          {"stepNumber": 6, "instruction": "Serve tofu over rice with bok choy.", "timeMin": 2, "techniqueTip": null}
+        ],
+        "substitutions": [
+          {"original": "Tofu", "swap": "Tempeh", "impact": "Nuttier taste and firmer chew."},
+          {"original": "Chili garlic sauce", "swap": "Sriracha", "impact": "Cleaner heat, less garlic depth."}
+        ],
+        "commonMistakes": [
+          {"mistake": "Soggy tofu", "fix": "Press tofu and avoid moving too often while searing."},
+          {"mistake": "Burned sauce", "fix": "Add glaze at end and reduce heat immediately."}
+        ]
+      },
+      "shoppingList": {
+        "produce": ["Bok choy (4 cups)", "Garlic (2 cloves)"],
+        "protein": ["Firm tofu (14 oz)"],
+        "dairy": [],
+        "dryGoods": ["Rice", "Cornstarch"],
+        "spicesAndSauces": ["Soy sauce", "Chili garlic sauce", "Rice vinegar", "Honey or maple", "Neutral oil"],
+        "other": []
+      }
+    }
+  ]
+}

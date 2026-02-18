@@ -1,0 +1,63 @@
+{
+  "principles": [
+    "Balance richness with acidity or fresh crunch.",
+    "Match cooking intensity: grilled proteins pair better with charred/roasted sides.",
+    "Avoid duplicate heavy textures (e.g., two creamy starches).",
+    "Include at least one color/fiber-forward side for plate balance.",
+    "For spicy proteins, add a cooling or neutral side."
+  ],
+  "protein_category_preferences": {
+    "seafood": {
+      "prefer_tags": ["light", "acidic", "green", "herby"],
+      "avoid_overuse": ["very_heavy", "double_cream"]
+    },
+    "poultry": {
+      "prefer_tags": ["versatile", "roasted", "fresh", "comfort_ok"],
+      "avoid_overuse": ["bland_plus_bland"]
+    },
+    "beef": {
+      "prefer_tags": ["acidic", "crunchy", "earthy", "charred"],
+      "avoid_overuse": ["double_starch_heavy"]
+    },
+    "pork": {
+      "prefer_tags": ["sweet_acid", "slaw", "roasted", "herby"],
+      "avoid_overuse": ["over_salty_combo"]
+    },
+    "plant_based": {
+      "prefer_tags": ["textural", "umami", "bright", "protein_support"],
+      "avoid_overuse": ["mushy_plus_mushy"]
+    }
+  },
+  "weak_combo_rules": [
+    {
+      "rule": "two_heavy_creamy_sides",
+      "when": "selected_sides contain 2+ of [Mac and Cheese, Loaded Mashed Potatoes, Scalloped Potatoes, Creamed Corn]",
+      "warning": "This may feel too heavy and one-note.",
+      "better_options": ["Garlic Asparagus", "Lemon Arugula Salad", "Cabbage Slaw"]
+    },
+    {
+      "rule": "seafood_with_double_comfort",
+      "when": "protein in seafood AND selected_sides include 2 comfort_sides",
+      "warning": "Seafood usually tastes better with one lighter, brighter side.",
+      "better_options": ["Cucumber Tomato Salad", "Roasted Broccoli", "Quinoa"]
+    },
+    {
+      "rule": "no_vegetable_present",
+      "when": "selected_sides contain no vegetable/salad category",
+      "warning": "Add a vegetable or salad for balance and color.",
+      "better_options": ["Sauteed Green Beans", "Garden Salad", "Roasted Carrots"]
+    },
+    {
+      "rule": "spicy_without_cooling",
+      "when": "flavor_style = spicy AND selected_sides lack cooling/fresh side",
+      "warning": "A cooling side improves contrast and keeps heat enjoyable.",
+      "better_options": ["Herbed Yogurt Slaw", "Cucumber Tomato Salad", "Tzatziki"]
+    }
+  ],
+  "recommendation_strategy": {
+    "step_1": "Identify protein category.",
+    "step_2": "Score each side: +2 preferred tags, -2 avoid tags, +1 user flavor-style match, +1 time-limit fit.",
+    "step_3": "Return top 5 side suggestions; preselect top 2 if user is unsure.",
+    "step_4": "If weak combo rule triggers, show warning + 2–3 better swaps but allow continue."
+  }
+}

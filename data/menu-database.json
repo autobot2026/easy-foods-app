@@ -1,0 +1,118 @@
+{
+  "app": "easy-foods",
+  "proteins": {
+    "poultry": [
+      "Chicken Breast",
+      "Chicken Thighs",
+      "Chicken Drumsticks",
+      "Ground Turkey",
+      "Turkey Breast",
+      "Chicken Wings"
+    ],
+    "beef": [
+      "Sirloin Steak",
+      "Flank Steak",
+      "Ground Beef",
+      "Chuck Roast",
+      "Beef Strips"
+    ],
+    "pork": [
+      "Pork Chops",
+      "Pork Tenderloin",
+      "Ground Pork",
+      "Italian Sausage"
+    ],
+    "seafood": [
+      "Salmon",
+      "Cod",
+      "Tilapia",
+      "Shrimp",
+      "Scallops",
+      "Tuna Steak",
+      "Trout"
+    ],
+    "plant_based": [
+      "Firm Tofu",
+      "Tempeh",
+      "Chickpeas",
+      "Lentils",
+      "Black Beans"
+    ]
+  },
+  "sides": {
+    "grains_and_starches": [
+      "Steamed Rice",
+      "Brown Rice",
+      "Garlic Rice",
+      "Quinoa",
+      "Couscous",
+      "Mashed Potatoes",
+      "Roasted Potatoes",
+      "Sweet Potato Wedges",
+      "Baked Potato",
+      "Mac and Cheese",
+      "Butter Noodles",
+      "Wild Rice",
+      "Polenta",
+      "Cornbread",
+      "Rice Pilaf"
+    ],
+    "vegetables": [
+      "Roasted Broccoli",
+      "Steamed Broccoli",
+      "Sauteed Green Beans",
+      "Roasted Carrots",
+      "Glazed Carrots",
+      "Garlic Asparagus",
+      "Roasted Brussels Sprouts",
+      "Sauteed Spinach",
+      "Grilled Zucchini",
+      "Roasted Cauliflower",
+      "Corn on the Cob",
+      "Sauteed Mushrooms",
+      "Cabbage Slaw",
+      "Roasted Bell Peppers",
+      "Green Peas",
+      "Braised Kale",
+      "Stir-Fried Bok Choy",
+      "Roasted Butternut Squash",
+      "Honey Glazed Parsnips",
+      "Sauteed Cabbage"
+    ],
+    "salads_and_cold": [
+      "Garden Salad",
+      "Caesar Salad",
+      "Greek Salad",
+      "Cucumber Tomato Salad",
+      "Coleslaw",
+      "Potato Salad",
+      "Pasta Salad",
+      "Avocado Salad",
+      "Herbed Yogurt Slaw",
+      "Lemon Arugula Salad"
+    ],
+    "comfort_sides": [
+      "Creamed Corn",
+      "Baked Beans",
+      "Garlic Bread",
+      "Dinner Rolls",
+      "Cheesy Grits",
+      "Scalloped Potatoes",
+      "Buttered Biscuits",
+      "Loaded Mashed Potatoes"
+    ],
+    "quick_addons": [
+      "Pickled Onions",
+      "Fresh Salsa",
+      "Chimichurri",
+      "Tzatziki",
+      "Pico de Gallo",
+      "Lemon Wedges",
+      "Hot Honey Drizzle"
+    ]
+  },
+  "counts": {
+    "proteins_total": 27,
+    "sides_total": 60
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "version": "1.0",
+  "type": "easy-foods.recipe-output",
+  "fields": {
+    "request": {
+      "protein": "string",
+      "sides": ["string"],
+      "servings": "number",
+      "skillLevel": "beginner|intermediate",
+      "method": "stovetop|oven|air_fryer|grill",
+      "timeLimitMin": "number|null",
+      "flavorStyle": "quick|healthy|comfort|spicy"
+    },
+    "pairingFeedback": {
+      "status": "good|weak|great",
+      "message": "string",
+      "suggestedSwaps": ["string"]
+    },
+    "recipe": {
+      "title": "string",
+      "summary": "string",
+      "totalCookTimeMin": "number",
+      "ingredients": [
+        {
+          "item": "string",
+          "amount": "string",
+          "notes": "string|null"
+        }
+      ],
+      "steps": [
+        {
+          "stepNumber": "number",
+          "instruction": "string",
+          "timeMin": "number",
+          "techniqueTip": "string|null"
+        }
+      ],
+      "substitutions": [
+        {
+          "original": "string",
+          "swap": "string",
+          "impact": "string"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "mistake": "string",
+          "fix": "string"
+        }
+      ]
+    },
+    "shoppingList": {
+      "produce": ["string"],
+      "protein": ["string"],
+      "dairy": ["string"],
+      "dryGoods": ["string"],
+      "spicesAndSauces": ["string"],
+      "other": ["string"]
+    }
+  }
+}
